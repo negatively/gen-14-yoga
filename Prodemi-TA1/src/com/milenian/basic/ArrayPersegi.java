@@ -16,9 +16,9 @@ public class ArrayPersegi {
 		for (Persegi p: arrayPersegi) {
 			double luas = HitungPersegi.luas(p);
 			double keliling = HitungPersegi.keliling(p);
-			System.out.printf("Persegi -> Sisi: %.2f | "
-					+ "Luas : %.2f | "
-					+ "Keliling : %.2f%n", p.getSisi(), luas, keliling);
+			System.out.printf("Persegi -> Sisi: %.2fcm | "
+					+ "Luas : %.2fcm2 | "
+					+ "Keliling : %.2fcm%n", p.getSisi(), luas, keliling);
 		}
 		
 	}

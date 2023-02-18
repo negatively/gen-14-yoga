@@ -14,9 +14,9 @@ public class ArraySegitiga {
 		for(Segitiga s: arraySegitiga) {
 			double luas = HitungSegitiga.luas(s);
 			double keliling = HitungSegitiga.keliling(s);
-			System.out.printf("Segitiga -> Alas, Tinggi : %.2f, %.2f | "
-					+ "Luas : %.2f | "
-					+ "Keliling : %.2f%n",
+			System.out.printf("Segitiga -> Alas, Tinggi : %.2fcm, %.2fcm | "
+					+ "Luas : %.2fcm2 | "
+					+ "Keliling : %.2fcm%n",
 					s.getAlas(),s.getTinggi(),luas,keliling);
 		}
 	}

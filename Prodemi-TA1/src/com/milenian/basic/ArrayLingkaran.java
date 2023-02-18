@@ -14,9 +14,9 @@ public class ArrayLingkaran {
 		for (Lingkaran l: arrayLingkaran) {
 			double luas = HitungLingkaran.luas(l);
 			double keliling = HitungLingkaran.keliling(l);
-			System.out.printf("Lingkaran -> Radius : %.2f | "
-					+ "Luas : %.2f | "
-					+ "Keliling : %.2f%n", l.getRadius(), luas, keliling);
+			System.out.printf("Lingkaran -> Radius : %.2fcm | "
+					+ "Luas : %.2fcm2 | "
+					+ "Keliling : %.2fcm%n", l.getRadius(), luas, keliling);
 		}
 	}
 
