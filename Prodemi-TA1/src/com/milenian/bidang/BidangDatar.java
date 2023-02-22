@@ -1,15 +1,28 @@
-package com.milenian.hitung;
+package com.milenian.bidang;
 
-public abstract class HitungBidang {
-	public double luasBidang;
-	public double kelilingBidang;
+public abstract class BidangDatar {
+	private double luasBidang;
+	private double kelilingBidang;
 	
-	public String luas() {
-		return "";
-	}
+	public abstract String getLuas();
 	
-	public String keliling() {
-		return "";		
+	public abstract String getKeliling();
+
+	public double getLuasBidang() {
+		return luasBidang;
 	}
+
+	public void setLuasBidang(double luasBidang) {
+		this.luasBidang = luasBidang;
+	}
+
+	public double getKelilingBidang() {
+		return kelilingBidang;
+	}
+
+	public void setKelilingBidang(double kelilingBidang) {
+		this.kelilingBidang = kelilingBidang;
+	}
+
 
 }

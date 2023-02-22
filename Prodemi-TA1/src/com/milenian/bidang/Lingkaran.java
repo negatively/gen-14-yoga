@@ -1,8 +1,6 @@
 package com.milenian.bidang;
 
-import com.milenian.hitung.*;
-
-public class Lingkaran extends HitungBidang{
+public class Lingkaran extends BidangDatar{
 	private double radius;
 	
 	public Lingkaran(double radius) {
@@ -24,14 +22,14 @@ public class Lingkaran extends HitungBidang{
 	}
 	
 	@Override
-	public String luas() {
-		luasBidang = 3.14 * this.radius * this.radius;
-		return String.format("Luas Lingkaran : %.2f",luasBidang);
+	public String getLuas() {
+		this.setLuasBidang(3.14 * this.radius * this.radius);
+		return String.format("Luas Lingkaran : %.2f",this.getLuasBidang());
 	}
 	
 	@Override
-	public String keliling() {
-		kelilingBidang = 2 * 3.14 * this.radius;
-		return String.format("Keliling Lingkaran : %.2f", kelilingBidang);
+	public String getKeliling() {
+		this.setKelilingBidang(2 * 3.14 * this.radius);
+		return String.format("Keliling Lingkaran : %.2f", this.getKelilingBidang());
 	}
 }

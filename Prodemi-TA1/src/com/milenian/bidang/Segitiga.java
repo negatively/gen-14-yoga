@@ -1,8 +1,6 @@
 package com.milenian.bidang;
 
-import com.milenian.hitung.*;
-
-public class Segitiga extends HitungBidang{
+public class Segitiga extends BidangDatar{
 	private double alas;
 	private double tinggi;
 	
@@ -35,15 +33,15 @@ public class Segitiga extends HitungBidang{
 	}
 	
 	@Override
-	public String luas() {
-		luasBidang = 0.5 * this.alas * this.tinggi;
-		return String.format("Luas Segitiga : %.2f",luasBidang);
+	public String getLuas() {
+		this.setLuasBidang( 0.5 * this.alas * this.tinggi);
+		return String.format("Luas Segitiga : %.2f",this.getLuasBidang());
 	}
 	
 	@Override
-	public String keliling() {
-		kelilingBidang = this.alas + 2 * this.getSisi();
-		return String.format("Keliling Segitiga : %.2f", kelilingBidang);
+	public String getKeliling() {
+		this.setKelilingBidang(this.alas + 2 * this.getSisi());
+		return String.format("Keliling Segitiga : %.2f", this.getKelilingBidang());
 	}
 	
 	

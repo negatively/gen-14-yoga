@@ -1,11 +1,10 @@
 package com.milenian;
 
 import com.milenian.bidang.*;
-import com.milenian.hitung.*;
 
 public class Calculate {
 	public static void main(String[] args) {
-		HitungBidang[] daftarBidang = {
+		BidangDatar[] daftarBidang = {
 				new BelahKetupat(12,10),
 				new BelahKetupat(16.8, 40.4),
 				new BelahKetupat(88.88, 60),
@@ -20,8 +19,8 @@ public class Calculate {
 				new Segitiga(70.70, 100.80)
 		};
 		
-		for(HitungBidang bd: daftarBidang) {
-			System.out.println(bd.luas());
+		for(BidangDatar bd: daftarBidang) {
+			System.out.println(bd.getLuas());
 		}
 		
 	}

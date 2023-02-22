@@ -1,11 +1,10 @@
 package com.milenian.bidang;
 
-import com.milenian.hitung.*;
 /**
  * @author Yoga Mileniandi
  * 
  */
-public class BelahKetupat extends HitungBidang {
+public class BelahKetupat extends BidangDatar {
 	private double diagonal1;
 	private double diagonal2;
 
@@ -36,13 +35,13 @@ public class BelahKetupat extends HitungBidang {
 	}
 	
 	@Override
-	public String luas() {
-		luasBidang = 0.5 * this.diagonal1 * this.diagonal2;
-		return String.format("Luas Belah Ketupat : %.2f",luasBidang);
+	public String getLuas() {
+		this.setLuasBidang(0.5 * this.diagonal1 * this.diagonal2);
+		return String.format("Luas Belah Ketupat : %.2f",getLuasBidang());
 	}
 	@Override
-	public String keliling() {
-		kelilingBidang = 4 * this.getSisi();
-		return String.format("Keliling Belah Ketupat : %.2f", kelilingBidang);		
+	public String getKeliling() {
+		this.setKelilingBidang( 4 * this.getSisi());
+		return String.format("Keliling Belah Ketupat : %.2f", this.getKelilingBidang());		
 	}
 }

@@ -1,8 +1,7 @@
 package com.milenian.bidang;
 
-import com.milenian.hitung.*;
 
-public class Persegi extends HitungBidang{
+public class Persegi extends BidangDatar{
 	private double sisi;
 	
 	public Persegi(double sisi) {
@@ -24,15 +23,15 @@ public class Persegi extends HitungBidang{
 	}
 	
 	@Override
-	public String luas() {
-		luasBidang = this.sisi * this.sisi;
-		return String.format("Luas Persegi : %.2f",luasBidang);
+	public String getLuas() {
+		this.setLuasBidang(this.sisi * this.sisi);
+		return String.format("Luas Persegi : %.2f",getLuasBidang());
 	}
 	
 	@Override
-	public String keliling() {
-		kelilingBidang = 4 * this.sisi;
-		return String.format("Keliling Persegi : %.2f", kelilingBidang);
+	public String getKeliling() {
+		this.setKelilingBidang(4 * this.sisi);
+		return String.format("Keliling Persegi : %.2f", this.getKelilingBidang());
 	}
 
 	
