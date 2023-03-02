@@ -7,6 +7,9 @@ public class Barang implements Serializable{
 	private int harga;
 	private int persediaan;
 	
+	public Barang() {
+		super();
+	}
 	public Barang(String nama, int harga, int persediaan) {
 		super();
 		this.nama = nama;
