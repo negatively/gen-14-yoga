@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Quicksand:wght@300;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+/*----------------------------- nav ------------------------ */
+nav {
+  display: flex;
+  width: 100vw;
+  top: 0;
+  padding: 20px 200px;
+  position: fixed;
+  background-color: white;
+  transition: .3s all ease;
+}
+
+nav .logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+nav .logo:hover{
+  scale: 1.1;
+}
+
+nav img{
+  width: 40px;
+  object-fit: contain;
+}
+
+nav ul {
+  display: flex;
+  margin-left: auto;
+}
+
+nav li {
+  display: inline;
+  margin: 0px 20px auto;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+nav a {
+  font-size : 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #1b8a52;
+}
+
+nav a:hover {
+  color: #26c5fe;
+}
+
+/* ------------------------------- main ---------------------------- */
+.maintron {
+  font-size: 20px;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/img/wallpaper.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#profile {
+  margin-top: 50px;
+  align-items: center;
+}
+
+.photo-profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.photo-profile h1{
+  margin-left: 30px;
+  color: white;
+  font-size: 60px;
+  text-shadow: 6px 6px 6px black;
+}
+
+.photo-profile img{
+  width: 200px;
+  border-radius: 20%;
+  border: 8px solid white;
+  box-shadow: 6px 6px 20px 1px black;
+}
+
+.content-profile {
+  width: 70vw;
+  text-align: justify;
+}
+
+#profile ul {
+  padding: 0;
+  margin: 0;
+}
+#profile li {
+  display: inline;
+  margin-left: 0;
+  margin-right: 20px;
+  list-style-type: none;
+}
+
+/*--------------------------------------------------------------*/
+
+#gallery {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  text-align: center;
+}
+
+.card {
+  box-shadow: 0px 4px 8px 0px  rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0px;
+  background-color: white
+}
+
+#gallery h1{
+  margin-top: 30px;
+  color: #1b8a52;
+}
+
+.gallery-wrap {
+  display: flex;
+}
+
+.gallery {
+  background-color: white;
+  margin: 10px;
+}
+
+.isometric {
+  max-width: 200px;
+  max-height: 200px;
+  }
+/*---------------------------------------------*/
+footer {
+  display: flex;
+  flex-direction: column;
+  padding-inline: 350px;
+  color: white;
+  background-color: #1b8a52;
+}
+
+#contacts {
+  display: flex;
+  margin-top: 100px;
+  padding-block: 50px;
+  border-block: 2px solid rgba(172, 206, 34, 0.5);
+  justify-content: space-around;
+}
+
+#contacts .contact-text {
+  display: flex;
+  flex-direction: column;
+}
+
+#contacts h2 {
+  color: rgba(172, 206, 34, 1);
+  text-shadow: 6px 6px 6px rgba(0, 0, 0, 0.2);
+  font-size: 40px;
+}
+
+#contacts .contact p {
+  color: white;
+}
+
+#contacts .soc-med {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#contacts .soc-med a {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+}
+#contacts .soc-med a:hover {
+  text-decoration: underline;
+}
+
+footer .copyright {
+  display: flex;
+  padding-block: 20px;
+  justify-content: center;
+}
+
+footer .copyright p {
+  color: white;
+  font-size: 12px;
+}
