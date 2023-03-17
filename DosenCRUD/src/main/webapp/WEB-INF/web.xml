@@ -1,0 +1,68 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <!-- <servlet>
+  	<servlet-name>GetDosenController</servlet-name>
+  	<display-name>GetDosenController</display-name>
+  	<description></description>
+  	<servlet-class>com.kampus.web.GetDosenController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>HomeDosen</servlet-name>
+  	<display-name>HomeDosen</display-name>
+  	<description></description>
+  	<servlet-class>com.kampus.web.HomeDosen</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateDosen</servlet-name>
+  	<display-name>UpdateDosen</display-name>
+  	<description></description>
+  	<servlet-class>com.kampus.web.UpdateDosen</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>UpdateController</servlet-name>
+  	<display-name>UpdateController</display-name>
+  	<description></description>
+  	<servlet-class>com.kampus.web.UpdateController</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteDosen</servlet-name>
+  	<display-name>DeleteDosen</display-name>
+  	<description></description>
+  	<servlet-class>com.kampus.web.DeleteDosen</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>DeleteController</servlet-name>
+  	<display-name>DeleteController</display-name>
+  	<description></description>
+  	<servlet-class>com.kampus.web.DeleteController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GetDosenController</servlet-name>
+  	<url-pattern>/getDosen</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>HomeDosen</servlet-name>
+  	<url-pattern>/HomeDosen</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateDosen</servlet-name>
+  	<url-pattern>/UpdateDosen</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UpdateController</servlet-name>
+  	<url-pattern>/UpdateController</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteDosen</servlet-name>
+  	<url-pattern>/DeleteDosen</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>DeleteController</servlet-name>
+  	<url-pattern>/DeleteController</url-pattern>
+  </servlet-mapping> -->
+  
+</web-app>
