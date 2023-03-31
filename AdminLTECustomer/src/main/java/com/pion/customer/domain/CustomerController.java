@@ -11,4 +11,18 @@ public class CustomerController {
 		return "index";
 
 	}
+	
+	@GetMapping(value="/sales")
+	public String salesTable(Model m) {
+		return "sales";
+
+	}
+	
+	@GetMapping(value="/produk")
+	public String produkTable(Model m) {
+		return "produk";
+
+	}
+	
+	
 }
